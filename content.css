@@ -2,15 +2,15 @@
     color: #224099;
     font-size: 0.9em;
     position: absolute;
-    left: 20px;
+    left: 980px;
     top: -24px;
-    z-index: 20000;
+    z-index: 10000;
 }
 
 .pd-download-continuous {
     position: absolute;
-    z-index: 20000;
-    left: -167px;
+    z-index: 10000;
+    left: 780px;
     top: -24px;
     font-size: 0.9em;
     color: #224099;
