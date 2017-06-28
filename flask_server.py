@@ -58,6 +58,9 @@ def pandoraDownloader():
 
         # Download the song
         urllib.urlretrieve( request.form['url'], song_path )
+        
+        # Working on adding proxy support with the usage of urllib.urlopen
+        # code coming here..
 
         # Open the song with mutagen so we can tag it and put the album art in it
         song = MP4( song_path )
